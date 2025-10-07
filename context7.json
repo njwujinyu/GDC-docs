@@ -1,0 +1,59 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "GDC Web3 Chat App",
+  "description": "集成Web3功能的即时聊天应用，支持多钱包管理、DApp发现和GDC代币挖矿功能",
+  "folders": [
+    "docs",
+    "examples",
+    "api"
+  ],
+  "excludeFolders": [
+    "node_modules",
+    "vendor",
+    "runtime",
+    "public/static",
+    "android/build",
+    "ios/build",
+    "dist",
+    "build",
+    ".git",
+    "coverage",
+    "temp",
+    "logs"
+  ],
+  "excludeFiles": [
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "CODE_OF_CONDUCT.md",
+    "package-lock.json",
+    "yarn.lock",
+    "go.sum",
+    "*.log",
+    "*.tmp"
+  ],
+  "rules": [
+    "使用Go语言开发后端，采用Gin框架和GORM",
+    "使用React Native + TypeScript开发移动端",
+    "支持多链Web3钱包（以太坊、BSC、Polygon等）",
+    "采用模块化架构设计，支持插件扩展",
+    "遵循Web3安全最佳实践，使用生物识别和端到端加密",
+    "集成GDC代币挖矿、质押和交易功能",
+    "支持实时通信和DApp发现功能",
+    "使用Docker进行容器化部署",
+    "支持宝塔面板部署方式"
+  ],
+  "previousVersions": [
+    {
+      "tag": "v1.0.0",
+      "title": "初始版本 - 基础聊天功能"
+    },
+    {
+      "tag": "v1.1.0", 
+      "title": "Web3钱包集成版本"
+    },
+    {
+      "tag": "v1.2.0",
+      "title": "GDC代币功能版本"
+    }
+  ]
+}
