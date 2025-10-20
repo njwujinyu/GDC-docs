@@ -5,21 +5,37 @@
   "folders": [
     "docs",
     "examples",
-    "api"
+    "api",
+    "flutter_gdc_app",
+    "backend",
+    "admin-panel",
+    "assets"
   ],
   "excludeFolders": [
     "node_modules",
     "vendor",
     "runtime",
     "public/static",
-    "android/build",
-    "ios/build",
     "dist",
     "build",
     ".git",
     "coverage",
     "temp",
-    "logs"
+    "logs",
+    "flutter_gdc_app/.dart_tool",
+    "flutter_gdc_app/.packages",
+    "flutter_gdc_app/.pub-cache",
+    "flutter_gdc_app/.pub",
+    "flutter_gdc_app/build",
+    "flutter_gdc_app/ios/Pods",
+    "flutter_gdc_app/ios/.symlinks",
+    "flutter_gdc_app/ios/Flutter/ephemeral",
+    "flutter_gdc_app/ios/Flutter/flutter_assets",
+    "flutter_gdc_app/android/.gradle",
+    "flutter_gdc_app/android/app/build",
+    "flutter_gdc_app/windows/flutter/ephemeral",
+    "flutter_gdc_app/linux/flutter/ephemeral",
+    "flutter_gdc_app/macos/Flutter/ephemeral"
   ],
   "excludeFiles": [
     "CHANGELOG.md",
@@ -29,31 +45,41 @@
     "yarn.lock",
     "go.sum",
     "*.log",
-    "*.tmp"
+    "*.tmp",
+    "flutter_gdc_app/pubspec.lock",
+    "flutter_gdc_app/.metadata",
+    "flutter_gdc_app/ios/Flutter/Generated.xcconfig",
+    "flutter_gdc_app/ios/Flutter/App.framework",
+    "flutter_gdc_app/ios/Flutter/Flutter.framework",
+    "flutter_gdc_app/ios/Flutter/Flutter.podspec",
+    "flutter_gdc_app/ios/ServiceDefinitions.json",
+    "flutter_gdc_app/ios/Runner/GeneratedPluginRegistrant.*",
+    "flutter_gdc_app/android/local.properties",
+    "flutter_gdc_app/android/gradle.properties",
+    "flutter_gdc_app/windows/flutter/generated_plugin_registrant.*",
+    "flutter_gdc_app/linux/flutter/generated_plugin_registrant.*",
+    "flutter_gdc_app/macos/Flutter/GeneratedPluginRegistrant.*"
   ],
   "rules": [
     "使用Go语言开发后端，采用Gin框架和GORM",
-    "使用React Native + TypeScript开发移动端",
+    "使用Flutter + Dart开发跨平台移动端应用（Android、iOS、Windows、macOS、Web）",
+    "使用React + TypeScript + Ant Design开发管理后台Web应用",
     "支持多链Web3钱包（以太坊、BSC、Polygon等）",
     "采用模块化架构设计，支持插件扩展",
     "遵循Web3安全最佳实践，使用生物识别和端到端加密",
     "集成GDC代币挖矿、质押和交易功能",
     "支持实时通信和DApp发现功能",
     "使用Docker进行容器化部署",
-    "支持宝塔面板部署方式"
+    "支持宝塔面板部署方式",
+    "Flutter项目支持多平台打包（APK、IPA、EXE、DMG、Web）",
+    "使用Provider进行Flutter状态管理",
+    "采用Clean Architecture架构模式",
+    "支持Flutter热重载和热更新"
   ],
   "previousVersions": [
     {
-      "tag": "v1.0.0",
-      "title": "初始版本 - 基础聊天功能"
-    },
-    {
-      "tag": "v1.1.0", 
-      "title": "Web3钱包集成版本"
-    },
-    {
-      "tag": "v1.2.0",
-      "title": "GDC代币功能版本"
+      "tag": "v2.0.0",
+      "title": "Flutter重构版本 - 跨平台支持"
     }
   ]
 }
